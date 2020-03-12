@@ -1,0 +1,9 @@
+{
+  "presets": ["env"], //根据各个平台对es的支持不同，按需转码
+  "plugins": [
+    ["transform-react-jsx", {
+      "pragma": "Olreact.createElement"
+      //使用Olreact.createElement转换jsx代码
+    }]
+  ]
+}
